@@ -12,25 +12,27 @@ body {
 .player-info {
   background: #f5cda3;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .health-box {
   background: #bac1a9;
-  width: 35%;
-  position: absolute;
-  left: 0;
+  float: left;
   bottom: 0;
 }
-
 
 .health-portrait {
   float: left;
   background: #13b363;
 }
-
+.health-stats {
+  float: right;
+}
 .health-bar {
   float: right;
   background: #5060c4;
+  font-size: 2rem;
 }
 .health-count {
   background: #cdd688;
@@ -39,9 +41,9 @@ body {
 .ult-box {
   background: #d9d239;
   position: absolute;
-  bottom: 10%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, -50%);
 }
 
 .ult-key {
@@ -52,9 +54,7 @@ body {
 .attack-box {
   background: #7e1b29;
   width: 40%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  float: right;
 }
 
 .attack-abilities {
@@ -77,6 +77,7 @@ body {
   background: #dd7fbb;
   width: 100%;
   text-align: right;
+
 }
 
 .message-box {
