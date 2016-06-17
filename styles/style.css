@@ -26,6 +26,10 @@ body {
 
 .ult-box {
   background: #d9d239;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
 
 .attack-box {
