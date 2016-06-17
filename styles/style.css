@@ -77,11 +77,16 @@ body {
   text-align: center;
   background: #c11011;
   border: 0.1rem solid white;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+.attack-ability-icon img {
+  background: #e606b9;
 }
 
-.attack-ability-icon img {
-  transform: scale(-50%);
+.attack-ability-key {
+  background: #5d18c6;
 }
 
 .attack-weapon-icon {
