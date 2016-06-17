@@ -63,26 +63,29 @@ body {
 
 .attack-box {
   background: #7e1b29;
-  width: 40%;
+  width: 25%;
   float: right;
 }
 
 .attack-abilities {
   float: left;
   background: #266a75;
+  width: 60%;
 }
 
 .attack-ability-icon {
-  float: right;
+  float: left;
   text-align: center;
   background: #c11011;
   border: 0.1rem solid white;
   margin-left: 1rem;
   margin-right: 1rem;
+  width: 20%;
 
 }
 .attack-ability-icon img {
   background: #e606b9;
+  width: 100%;
 }
 
 .attack-ability-key {
@@ -92,6 +95,11 @@ body {
 .attack-weapon-icon {
  float: right;
  background: #acad64;
+ width: 40%;
+}
+
+.attack-weapon-icon img {
+  width: 100%;
 }
 
 .attack-ammo-count {
