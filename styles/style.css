@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+.player-info {
+  background: #f5cda3;
+  width: 100%;
+}
+
 .health-box {
   background: #bac1a9;
   width: 35%;
