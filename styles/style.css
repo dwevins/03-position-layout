@@ -10,17 +10,18 @@ body {
 
 .health-box {
   background: #bac1a9;
-  width: 100%;
+  width: 40%;
   position: absolute;
+  left: 0;
   bottom: 0;
 }
 
 .health-portrait {
-  display: inline-block;
+  float: left;
 }
 
 .health-bar {
-  display: inline-block;
+  float: left;
 }
 
 .ult-box {
@@ -29,6 +30,19 @@ body {
 
 .attack-box {
   background: #7e1b29;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.attack-ability-icon {
+  float: right;
+  text-align: center;
+}
+
+.attack-weapon-icon {
+ float: right;
 }
 
 .message-box {
@@ -37,7 +51,7 @@ body {
   max-width: 20rem;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
