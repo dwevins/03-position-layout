@@ -13,11 +13,11 @@ body {
 }
 
 .health-portrait {
-
+  display: inline-block;
 }
 
 .health-bar {
-
+  display: inline-block;
 }
 
 .ult-box {
