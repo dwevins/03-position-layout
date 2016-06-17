@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-size: 1rem;
-  background: #4de81b;
+  background: black;
   color: white;
 }
 
@@ -19,22 +19,30 @@ body {
 .health-box {
   background: #bac1a9;
   float: left;
-  width: 40%;
-  bottom: 0;
+  width: 25%;
+  margin-bottom: 1rem;
 }
 
 .health-portrait {
   float: left;
   background: #13b363;
+  width: 40%;
 }
+
+.health-portrait img {
+  width: 100%;
+}
+
 .health-stats {
   background: #cbec2d;
   float: left;
+  width: 60%;
 }
 .health-bar {
-  float: right;
+  float: left;
   background: #5060c4;
-  font-size: 2rem;
+  font-size: 1rem;
+  width: 100%;
 }
 .health-count {
   background: #cdd688;
@@ -59,12 +67,14 @@ body {
 .ult-key {
   background: #12edca;
   border: 0.1rem solid white;
+  text-align: center;
 }
 
 .attack-box {
   background: #7e1b29;
   width: 25%;
   float: right;
+  margin-bottom: 1rem;
 }
 
 .attack-abilities {
