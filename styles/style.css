@@ -2,7 +2,24 @@ html {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   font-size: 1rem;
+  background: #4de81b;
+}
+
+.health-box {
+  background: #bac1a9;
+}
+
+.ult-box {
+  background: #d9d239;
+}
+
+.attack-box {
+  background: #7e1b29;
+}
+
+.message-box {
+  background: #3f4e93;
 }
