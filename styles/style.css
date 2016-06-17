@@ -19,7 +19,7 @@ body {
 .health-box {
   /*background: #bac1a9;*/
   float: left;
-  width: 23%;
+  width: 30%;
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
@@ -27,7 +27,8 @@ body {
 .health-portrait {
   float: left;
   /*background: #13b363;*/
-  width: 40%;
+  width: 30%;
+  margin-right: 5%;
 }
 
 .health-portrait img {
@@ -77,7 +78,7 @@ body {
 }
 
 .ult-key .q {
-  margin: 0.1rem;
+  margin: 6%;
   width: 84%;
 }
 
@@ -102,8 +103,8 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
   width: 30%;
-
 }
+
 .attack-ability-icon img {
   /*background: #e606b9;*/
   border: 0.1rem solid white;
@@ -114,7 +115,12 @@ body {
   /*background: #5d18c6;*/
   border: 1px solid white;
   border-radius: 25%;
-  width: 100%;
+  width: 38%;
+  margin-left: 30%
+}
+
+.attack-ability-key p {
+  margin: 0;
 }
 
 .attack-weapon-icon {
@@ -131,6 +137,10 @@ body {
   /*background: #dd7fbb;*/
   width: 100%;
   text-align: right;
+}
+
+p span {
+  font-size: 140%
 }
 
 .message-box {
