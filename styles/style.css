@@ -6,22 +6,29 @@ body {
   margin: 0;
   font-size: 1rem;
   background: #4de81b;
+  color: white;
 }
 
 .health-box {
   background: #bac1a9;
-  width: 40%;
+  width: 35%;
   position: absolute;
   left: 0;
   bottom: 0;
 }
 
+
 .health-portrait {
   float: left;
+  background: #13b363;
 }
 
 .health-bar {
-  float: left;
+  float: right;
+  background: #5060c4;
+}
+.health-count {
+  background: #cdd688;
 }
 
 .ult-box {
@@ -32,6 +39,11 @@ body {
   transform: translate(-50%, -10%);
 }
 
+.ult-key {
+  background: #12edca;
+  border: 0.1rem solid white;
+}
+
 .attack-box {
   background: #7e1b29;
   width: 40%;
@@ -40,13 +52,26 @@ body {
   bottom: 0;
 }
 
+.attack-abilities {
+  float: left;
+  background: #266a75;
+}
+
 .attack-ability-icon {
   float: right;
   text-align: center;
+  background: #c11011;
 }
 
 .attack-weapon-icon {
  float: right;
+ background: #acad64;
+}
+
+.attack-ammo-count {
+  background: #dd7fbb;
+  width: 100%;
+  text-align: right;
 }
 
 .message-box {
