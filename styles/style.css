@@ -19,8 +19,9 @@ body {
 .health-box {
   background: #bac1a9;
   float: left;
-  width: 25%;
+  width: 23%;
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .health-portrait {
@@ -53,7 +54,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
+  text-align: center;
 }
 
 .ult-bar {
@@ -67,14 +69,19 @@ body {
 .ult-key {
   background: #12edca;
   border: 0.1rem solid white;
-  text-align: center;
+  border-radius: 100%;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .attack-box {
   background: #7e1b29;
-  width: 25%;
+  width: 23%;
   float: right;
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .attack-abilities {
