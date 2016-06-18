@@ -11,14 +11,14 @@ body {
 }
 
 .player-info {
-  background: #f5cda3;
+  /*background: #f5cda3;*/
   width: 100%;
   position: fixed;
   bottom: 0;
 }
 
 .health-box {
-  background: #bac1a9;
+  /*background: #bac1a9;*/
   float: left;
   width: 30%;
   margin-bottom: 1rem;
@@ -27,7 +27,7 @@ body {
 
 .health-portrait {
   float: left;
-  background: #13b363;
+  /*background: #13b363;*/
   width: 30%;
   margin-right: 5%;
 }
@@ -37,19 +37,19 @@ body {
 }
 
 .health-stats {
-  background: #cbec2d;
+  /*background: #cbec2d;*/
   float: left;
   width: 60%;
 }
 .health-bar {
   float: left;
-  background: #5060c4;
+  /*background: #5060c4;*/
   font-size: 1rem;
   width: 99%;
 }
 
 .health-bar-tic {
-  background: white;
+  /*background: white;*/
   border: 1px solid #828282;
   width: 8%;
   height: 2rem;
@@ -58,13 +58,13 @@ body {
 }
 
 .health-count {
-  background: #cdd688;
+  /*background: #cdd688;*/
   margin-top: 25%;
   margin-bottom: -6%;
 }
 
 .ult-box {
-  background: #d9d239;
+  /*background: #d9d239;*/
   position: absolute;
   top: 50%;
   left: 50%;
@@ -81,7 +81,7 @@ body {
 }
 
 .ult-key {
-  background: #12edca;
+  /*background: #12edca;*/
   border: 0.1rem solid white;
   border-radius: 100%;
   width: 28%;
@@ -96,7 +96,7 @@ body {
 }
 
 .attack-box {
-  background: #7e1b29;
+  /*background: #7e1b29;*/
   width: 25%;
   float: right;
   margin-bottom: 1rem;
@@ -105,27 +105,27 @@ body {
 
 .attack-abilities {
   float: left;
-  background: #266a75;
+  /*background: #266a75;*/
   width: 60%;
 }
 
 .attack-ability-icon {
   float: left;
   text-align: center;
-  background: #c11011;
+  /*background: #c11011;*/
   margin-left: 1rem;
   margin-right: 1rem;
   width: 30%;
 }
 
 .attack-ability-icon img {
-  background: #e606b9;
+  /*background: #e606b9;*/
   border: 0.1rem solid white;
   width: 100%;
 }
 
 .attack-ability-key {
-  background: #5d18c6;
+  /*background: #5d18c6;*/
   border: 1px solid white;
   border-radius: 25%;
   width: 38%;
@@ -138,7 +138,7 @@ body {
 
 .attack-weapon-icon {
  float: right;
- background: #acad64;
+ /*background: #acad64;*/
  width: 35%;
 }
 
@@ -147,7 +147,7 @@ body {
 }
 
 .attack-ammo-count {
-  background: #dd7fbb;
+  /*background: #dd7fbb;*/
   width: 100%;
   text-align: right;
 }
@@ -157,18 +157,23 @@ body {
 }
 
 .message-box {
-  background: #3f4e93;
+  /*background: #3f4e93;*/
   position: fixed;
   max-width: 20rem;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
   text-align: center;
+  font-size: 0.9em;
+}
+
+.message-box-icon {
+  margin-bottom: 25%;
 }
 
 .message-box img {
-  background: #67be75;
-  width: 30%;
+  /*background: #67be75;*/
+  width: 25%;
 }
 
 .red-text{
