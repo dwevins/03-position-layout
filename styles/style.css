@@ -8,6 +8,8 @@ body {
   background: black;
   color: white;
   font-family: sans-serif;
+  background-image: url(http://media.nbcphiladelphia.com/images/1200*675/Snow-Flurries-Generic.jpg);
+  background-size: 100%;
 }
 
 .player-info {
@@ -49,7 +51,7 @@ body {
 }
 
 .health-bar-tic {
-  /*background: white;*/
+  background: white;
   border: 1px solid #828282;
   width: 8%;
   height: 2rem;
